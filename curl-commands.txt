@@ -1,0 +1,69 @@
+curl -X POST http://localhost:8000/wines/predict/ -H "Content-Type: application/json" -d '{
+  "fixed_acidity": 7.4,
+  "volatile_acidity": 0.7,
+  "citric_acid": 0.0,
+  "residual_sugar": 1.9,
+  "chlorides": 0.076,
+  "free_sulfur_dioxide": 11.0,
+  "total_sulfur_dioxide": 34.0,
+  "density": 0.9978,
+  "ph": 3.51,
+  "sulphates": 0.56,
+  "alcohol": 9.4
+}'
+
+curl -X POST http://localhost:8000/wines/predict/ -H "Content-Type: application/json" -d '{
+  "fixed_acidity": 8.0,
+  "volatile_acidity": 1.2,
+  "citric_acid": 0.2,
+  "residual_sugar": 2.5,
+  "chlorides": 0.08,
+  "free_sulfur_dioxide": 10.0,
+  "total_sulfur_dioxide": 28.0,
+  "density": 0.9985,
+  "ph": 3.2,
+  "sulphates": 0.5,
+  "alcohol": 8.5
+}'
+
+curl -X POST http://localhost:8000/wines/predict/ -H "Content-Type: application/json" -d '{
+  "fixed_acidity": 6.5,
+  "volatile_acidity": 0.2,
+  "citric_acid": 0.3,
+  "residual_sugar": 1.5,
+  "chlorides": 0.05,
+  "free_sulfur_dioxide": 15.0,
+  "total_sulfur_dioxide": 35.0,
+  "density": 0.995,
+  "ph": 3.4,
+  "sulphates": 0.65,
+  "alcohol": 11.0
+}'
+
+curl -X POST http://localhost:8000/wines/predict/ -H "Content-Type: application/json" -d '{
+  "fixed_acidity": 9.0,
+  "volatile_acidity": 1.5,
+  "citric_acid": 0.1,
+  "residual_sugar": 2.0,
+  "chlorides": 0.09,
+  "free_sulfur_dioxide": 8.0,
+  "total_sulfur_dioxide": 20.0,
+  "density": 0.999,
+  "ph": 3.0,
+  "sulphates": 0.4,
+  "alcohol": 8.0
+}'
+
+curl -X POST http://localhost:8000/wines/predict/ -H "Content-Type: application/json" -d '{
+  "fixed_acidity": 10.3,
+  "volatile_acidity": 0.32,
+  "citric_acid": 0.45,
+  "residual_sugar": 6.4,
+  "chlorides": 0.073,
+  "free_sulfur_dioxide": 5.0,
+  "total_sulfur_dioxide": 13.0,
+  "density": 0.9976,
+  "ph": 3.23,
+  "sulphates": 0.82,
+  "alcohol": 12.6
+}'
